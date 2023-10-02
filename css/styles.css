@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(162, 213, 231, 0.49);
+}
+
+.chessboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+}
+
+.black {
+  background-color: rgb(229, 200, 200);
+}
+
+.white {
+  background-color: #fff;
+}
+
+.row img {
+  width: 50px;
+}
+
+.row img:hover {
+  opacity: 1;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+}
+
+.trash-bin {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.trash-bin img {
+  width: 20px;
+}
+
+.trash {
+  margin-left: 200px;
+}
+
+.trash p {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(213, 30, 30);
+}
+a:link {
+  color: red;
+}
+
+a:hover {
+  font-size: large;
+}
+
+.ins {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ins_p::before {
+  content: "📑";
+}
